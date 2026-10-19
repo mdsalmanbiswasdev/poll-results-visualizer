@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sensitive data and respondent information (private/real survey data excluded by default)
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+# Whitelist rule: Allow synthetic/mock sample datasets for public portfolio reproducibility
+!data/raw/sample_*
+!data/raw/synthetic_*
+data/processed/*
+!data/processed/README.md
+!data/processed/.gitkeep
+!data/processed/sample_*
+!data/processed/synthetic_*
+!data/processed/clean_*
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Streamlit runtime and local settings
+.streamlit/
+
+# Log files
+*.log
+
+# Generated exports and figures (preserve documentation and structure)
+outputs/*
+!outputs/README.md
+!outputs/.gitkeep
+

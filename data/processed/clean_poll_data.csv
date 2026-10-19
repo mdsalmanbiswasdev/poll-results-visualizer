@@ -1,0 +1,501 @@
+response_id,department,study_year,preferred_language,training_satisfaction,preferred_learning_method,internship_interest,recommendation_score,comments
+RESP_0001,Science,3,Python,4,Classroom Lectures,Yes,9,
+RESP_0002,Commerce,4,Java,5,Video Tutorials,Yes,7,Well-structured modules and clear explanations.
+RESP_0003,Arts,4,Python,3,Online Courses,No,5,Practical exercises were very helpful for understanding core concepts.
+RESP_0004,Science,2,Python,3,Video Tutorials,No,8,Practical exercises were very helpful for understanding core concepts.
+RESP_0005,IT,2,Java,4,Hands-on Projects,Yes,3,Would love additional real-world case studies in upcoming sessions.
+RESP_0006,Arts,3,Python,4,Online Courses,Yes,8,"Clear, concise, and engaging presentations throughout."
+RESP_0007,Science,1,JavaScript,4,Video Tutorials,No,7,
+RESP_0008,Science,4,Python,3,Hands-on Projects,No,4,Interactive quizzes helped reinforce weekly topics.
+RESP_0009,IT,2,C++,3,Hands-on Projects,Yes,3,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0010,Commerce,1,Java,4,Video Tutorials,Yes,8,Could benefit from more advanced challenge exercises.
+RESP_0011,Commerce,1,Java,2,Hands-on Projects,Yes,6,Session notes and documentation were comprehensive.
+RESP_0012,Arts,4,Java,3,Hands-on Projects,Yes,9,Great introductory pace for beginners.
+RESP_0013,Science,1,Java,4,Hands-on Projects,Yes,8,
+RESP_0014,Science,1,JavaScript,4,Video Tutorials,Yes,8,Great introductory pace for beginners.
+RESP_0015,Commerce,2,Python,5,Hands-on Projects,Yes,5,Great introductory pace for beginners.
+RESP_0016,IT,1,Python,3,Video Tutorials,No,8,Session notes and documentation were comprehensive.
+RESP_0017,Commerce,1,C++,2,Hands-on Projects,Yes,10,
+RESP_0018,IT,3,JavaScript,5,Hands-on Projects,Yes,3,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0019,Science,1,Python,2,Video Tutorials,Yes,6,
+RESP_0020,Science,4,Java,3,Hands-on Projects,Yes,5,
+RESP_0021,Science,4,JavaScript,3,Video Tutorials,Yes,6,
+RESP_0022,IT,2,C++,4,Hands-on Projects,Yes,8,Could benefit from more advanced challenge exercises.
+RESP_0023,Arts,1,JavaScript,5,Hands-on Projects,Yes,7,
+RESP_0024,Arts,3,Java,4,Hands-on Projects,Yes,7,
+RESP_0025,Science,1,Java,4,Video Tutorials,No,6,The tutorials helped bridge theoretical lectures with practice.
+RESP_0026,IT,2,Python,2,Hands-on Projects,Yes,4,
+RESP_0027,Commerce,4,JavaScript,3,Classroom Lectures,No,5,More live coding demonstrations would be appreciated.
+RESP_0028,IT,4,Python,4,Hands-on Projects,No,9,
+RESP_0029,IT,3,C++,2,Video Tutorials,No,8,Great introductory pace for beginners.
+RESP_0030,Science,1,Python,3,Video Tutorials,Yes,6,
+RESP_0031,Science,3,Java,3,Hands-on Projects,Yes,8,
+RESP_0032,Arts,3,C++,2,Video Tutorials,Yes,2,Interactive quizzes helped reinforce weekly topics.
+RESP_0033,IT,2,Java,4,Hands-on Projects,Yes,5,Would love additional real-world case studies in upcoming sessions.
+RESP_0034,Commerce,3,JavaScript,4,Hands-on Projects,Yes,5,
+RESP_0035,Commerce,1,Python,2,Hands-on Projects,No,10,
+RESP_0036,IT,1,Java,4,Classroom Lectures,Yes,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0037,IT,2,Python,4,Online Courses,No,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0038,Commerce,1,Python,4,Hands-on Projects,Yes,0,
+RESP_0039,IT,1,Java,4,Video Tutorials,Yes,5,The tutorials helped bridge theoretical lectures with practice.
+RESP_0040,Science,4,Python,3,Classroom Lectures,Yes,8,Session notes and documentation were comprehensive.
+RESP_0041,Commerce,4,Python,5,Hands-on Projects,Yes,6,
+RESP_0042,Science,2,C++,3,Classroom Lectures,Yes,10,More live coding demonstrations would be appreciated.
+RESP_0043,Science,4,Java,3,Video Tutorials,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0044,IT,4,C++,2,Online Courses,Yes,7,Would love additional real-world case studies in upcoming sessions.
+RESP_0045,Science,1,Python,4,Online Courses,Yes,8,Could benefit from more advanced challenge exercises.
+RESP_0046,Science,2,Python,3,Hands-on Projects,Yes,10,Would love additional real-world case studies in upcoming sessions.
+RESP_0047,Commerce,2,Python,3,Video Tutorials,No,7,Interactive quizzes helped reinforce weekly topics.
+RESP_0048,IT,1,C++,4,Video Tutorials,Yes,8,Session notes and documentation were comprehensive.
+RESP_0049,Science,3,JavaScript,3,Hands-on Projects,Yes,9,Loved the hands-on project assignments.
+RESP_0050,IT,2,Python,3,Hands-on Projects,Yes,5,Great introductory pace for beginners.
+RESP_0051,IT,2,C++,2,Online Courses,Yes,9,Session notes and documentation were comprehensive.
+RESP_0052,IT,1,Python,3,Hands-on Projects,Yes,3,Loved the hands-on project assignments.
+RESP_0053,Science,1,Python,3,Video Tutorials,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0054,Science,4,Python,3,Classroom Lectures,No,8,
+RESP_0055,Science,1,Python,3,Hands-on Projects,Yes,8,
+RESP_0056,Science,1,C++,4,Video Tutorials,Yes,7,
+RESP_0057,Commerce,1,JavaScript,5,Online Courses,Yes,8,
+RESP_0058,Commerce,2,Python,4,Video Tutorials,Yes,4,
+RESP_0059,IT,2,Java,4,Hands-on Projects,Yes,5,The tutorials helped bridge theoretical lectures with practice.
+RESP_0060,IT,2,C++,5,Hands-on Projects,Yes,5,More live coding demonstrations would be appreciated.
+RESP_0061,Science,1,JavaScript,5,Online Courses,Yes,7,
+RESP_0062,Commerce,1,Java,4,Hands-on Projects,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0063,Commerce,4,Python,5,Video Tutorials,No,5,
+RESP_0064,Science,3,Java,5,Hands-on Projects,Yes,9,Great introductory pace for beginners.
+RESP_0065,Science,3,Python,4,Hands-on Projects,Yes,6,Session notes and documentation were comprehensive.
+RESP_0066,Commerce,3,JavaScript,4,Online Courses,Yes,7,
+RESP_0067,Commerce,3,Python,2,Video Tutorials,Yes,6,Great introductory pace for beginners.
+RESP_0068,IT,1,C++,1,Online Courses,Yes,5,Well-structured modules and clear explanations.
+RESP_0069,IT,2,Python,4,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0070,Commerce,2,Python,4,Video Tutorials,No,7,
+RESP_0071,IT,2,JavaScript,3,Classroom Lectures,Yes,0,The tutorials helped bridge theoretical lectures with practice.
+RESP_0072,Commerce,4,Java,4,Video Tutorials,Yes,10,
+RESP_0073,Arts,2,Java,4,Hands-on Projects,No,9,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0074,IT,3,JavaScript,5,Classroom Lectures,No,8,Interactive quizzes helped reinforce weekly topics.
+RESP_0075,IT,4,JavaScript,2,Hands-on Projects,Yes,9,Session notes and documentation were comprehensive.
+RESP_0076,IT,2,Python,3,Video Tutorials,Yes,9,
+RESP_0077,IT,4,Java,4,Online Courses,Yes,6,
+RESP_0078,Science,2,Java,5,Hands-on Projects,No,8,
+RESP_0079,Commerce,4,Java,5,Hands-on Projects,Yes,8,Could benefit from more advanced challenge exercises.
+RESP_0080,Science,2,Python,5,Hands-on Projects,No,5,Loved the hands-on project assignments.
+RESP_0081,Science,2,Python,5,Hands-on Projects,Yes,5,
+RESP_0082,Commerce,2,JavaScript,3,Hands-on Projects,No,4,
+RESP_0083,Science,1,JavaScript,3,Video Tutorials,Yes,8,
+RESP_0084,IT,2,JavaScript,3,Hands-on Projects,Yes,8,
+RESP_0085,IT,4,JavaScript,4,Video Tutorials,Yes,8,
+RESP_0086,IT,3,C++,5,Hands-on Projects,Yes,6,Well-structured modules and clear explanations.
+RESP_0087,Science,1,C++,3,Hands-on Projects,Yes,5,More live coding demonstrations would be appreciated.
+RESP_0088,Commerce,2,C++,4,Hands-on Projects,Yes,7,Session notes and documentation were comprehensive.
+RESP_0089,IT,1,Java,3,Classroom Lectures,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0090,Commerce,1,Java,2,Video Tutorials,Yes,9,
+RESP_0091,IT,4,Python,3,Hands-on Projects,No,9,
+RESP_0092,Science,2,Java,1,Classroom Lectures,No,9,
+RESP_0093,Commerce,1,Python,5,Video Tutorials,Yes,9,Would love additional real-world case studies in upcoming sessions.
+RESP_0094,Commerce,2,Python,3,Hands-on Projects,Yes,10,
+RESP_0095,IT,1,Java,5,Online Courses,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0096,Science,1,Python,4,Hands-on Projects,No,2,Well-structured modules and clear explanations.
+RESP_0097,Commerce,3,Python,3,Hands-on Projects,Yes,3,Interactive quizzes helped reinforce weekly topics.
+RESP_0098,IT,3,C++,2,Video Tutorials,Yes,6,Loved the hands-on project assignments.
+RESP_0099,IT,4,JavaScript,4,Hands-on Projects,No,5,Interactive quizzes helped reinforce weekly topics.
+RESP_0100,Arts,3,Python,3,Hands-on Projects,No,4,
+RESP_0101,Arts,2,Python,5,Classroom Lectures,Yes,10,
+RESP_0102,Science,3,Python,2,Hands-on Projects,Yes,5,Would love additional real-world case studies in upcoming sessions.
+RESP_0103,IT,4,C++,4,Classroom Lectures,Yes,10,
+RESP_0104,Arts,3,C++,4,Online Courses,No,8,"Clear, concise, and engaging presentations throughout."
+RESP_0105,Science,4,Python,3,Video Tutorials,Yes,8,
+RESP_0106,Science,3,C++,3,Classroom Lectures,Yes,8,Practical exercises were very helpful for understanding core concepts.
+RESP_0107,Commerce,4,Python,5,Classroom Lectures,Yes,6,Loved the hands-on project assignments.
+RESP_0108,IT,1,Python,3,Online Courses,Yes,8,"Clear, concise, and engaging presentations throughout."
+RESP_0109,IT,3,JavaScript,3,Hands-on Projects,Yes,5,
+RESP_0110,Arts,2,Python,3,Hands-on Projects,Yes,10,More live coding demonstrations would be appreciated.
+RESP_0111,Commerce,2,Python,3,Video Tutorials,No,6,
+RESP_0112,IT,3,Java,4,Video Tutorials,No,5,
+RESP_0113,IT,4,Java,4,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0114,Commerce,4,JavaScript,3,Video Tutorials,No,8,
+RESP_0115,IT,1,JavaScript,5,Hands-on Projects,Yes,7,
+RESP_0116,Arts,3,Python,3,Online Courses,Yes,8,Well-structured modules and clear explanations.
+RESP_0117,Science,3,Python,1,Hands-on Projects,Yes,4,
+RESP_0118,Science,2,C++,4,Hands-on Projects,No,8,
+RESP_0119,Commerce,1,Python,5,Hands-on Projects,No,5,
+RESP_0120,Science,1,JavaScript,1,Hands-on Projects,No,5,
+RESP_0121,Commerce,3,C++,3,Hands-on Projects,No,4,
+RESP_0122,Science,2,Python,4,Hands-on Projects,No,6,
+RESP_0123,IT,4,C++,4,Hands-on Projects,Yes,6,
+RESP_0124,Commerce,2,Python,2,Hands-on Projects,No,7,
+RESP_0125,IT,4,Java,3,Hands-on Projects,Yes,5,Would love additional real-world case studies in upcoming sessions.
+RESP_0126,Commerce,2,Java,4,Hands-on Projects,Yes,5,
+RESP_0127,IT,3,Java,3,Hands-on Projects,Yes,7,Practical exercises were very helpful for understanding core concepts.
+RESP_0128,IT,1,C++,3,Hands-on Projects,Yes,4,Loved the hands-on project assignments.
+RESP_0129,IT,2,Java,3,Hands-on Projects,Yes,8,
+RESP_0130,Commerce,3,JavaScript,3,Hands-on Projects,Yes,10,
+RESP_0131,IT,4,JavaScript,4,Hands-on Projects,Yes,7,
+RESP_0132,Arts,4,Java,5,Classroom Lectures,Yes,9,
+RESP_0133,Commerce,1,Python,4,Online Courses,No,3,
+RESP_0134,IT,2,C++,4,Online Courses,Yes,2,Interactive quizzes helped reinforce weekly topics.
+RESP_0135,Commerce,1,JavaScript,5,Video Tutorials,Yes,8,
+RESP_0136,IT,1,Python,3,Video Tutorials,Yes,8,Interactive quizzes helped reinforce weekly topics.
+RESP_0137,Arts,3,Java,3,Hands-on Projects,Yes,9,
+RESP_0138,Commerce,3,Java,5,Classroom Lectures,Yes,2,More live coding demonstrations would be appreciated.
+RESP_0139,Science,3,Python,3,Classroom Lectures,No,8,Well-structured modules and clear explanations.
+RESP_0140,IT,4,C++,4,Classroom Lectures,Yes,6,More live coding demonstrations would be appreciated.
+RESP_0141,Commerce,3,Python,4,Online Courses,Yes,6,
+RESP_0142,Commerce,3,C++,2,Hands-on Projects,No,5,
+RESP_0143,Arts,1,C++,4,Classroom Lectures,Yes,10,Practical exercises were very helpful for understanding core concepts.
+RESP_0144,Commerce,1,C++,3,Classroom Lectures,No,2,
+RESP_0145,Commerce,3,Python,3,Hands-on Projects,Yes,9,Loved the hands-on project assignments.
+RESP_0146,IT,4,Python,4,Online Courses,No,8,
+RESP_0147,IT,1,C++,3,Hands-on Projects,Yes,8,
+RESP_0148,Commerce,2,C++,4,Online Courses,No,8,
+RESP_0149,Commerce,3,Java,5,Classroom Lectures,Yes,9,"Clear, concise, and engaging presentations throughout."
+RESP_0150,IT,1,JavaScript,4,Hands-on Projects,No,5,
+RESP_0151,Science,2,Python,3,Video Tutorials,No,0,
+RESP_0152,Arts,4,JavaScript,3,Hands-on Projects,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0153,IT,3,Python,3,Classroom Lectures,No,6,
+RESP_0154,Commerce,1,Python,2,Classroom Lectures,No,4,Loved the hands-on project assignments.
+RESP_0155,IT,4,Java,5,Video Tutorials,Yes,5,
+RESP_0156,Science,2,Python,3,Classroom Lectures,No,6,
+RESP_0157,IT,4,Python,3,Hands-on Projects,Yes,3,
+RESP_0158,Science,1,Python,5,Hands-on Projects,Yes,2,
+RESP_0159,Science,2,Java,3,Hands-on Projects,Yes,9,
+RESP_0160,Science,2,C++,1,Hands-on Projects,Yes,6,Great introductory pace for beginners.
+RESP_0161,IT,1,Python,2,Video Tutorials,No,10,
+RESP_0162,Arts,4,Java,4,Hands-on Projects,Yes,10,Could benefit from more advanced challenge exercises.
+RESP_0163,IT,1,C++,4,Hands-on Projects,Yes,4,
+RESP_0164,IT,1,Python,3,Hands-on Projects,Yes,8,
+RESP_0165,Commerce,2,Python,5,Online Courses,Yes,8,
+RESP_0166,Commerce,3,JavaScript,5,Hands-on Projects,No,8,Interactive quizzes helped reinforce weekly topics.
+RESP_0167,Science,3,C++,5,Online Courses,No,3,
+RESP_0168,Science,4,Java,3,Hands-on Projects,Yes,5,Interactive quizzes helped reinforce weekly topics.
+RESP_0169,IT,1,C++,1,Hands-on Projects,Yes,3,Session notes and documentation were comprehensive.
+RESP_0170,Arts,2,Python,5,Video Tutorials,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0171,IT,1,Python,3,Hands-on Projects,Yes,10,Great introductory pace for beginners.
+RESP_0172,Commerce,2,C++,4,Hands-on Projects,Yes,8,Well-structured modules and clear explanations.
+RESP_0173,IT,4,Python,4,Video Tutorials,Yes,8,Interactive quizzes helped reinforce weekly topics.
+RESP_0174,Arts,3,C++,2,Hands-on Projects,Yes,10,"Clear, concise, and engaging presentations throughout."
+RESP_0175,IT,2,Java,4,Hands-on Projects,Yes,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0176,IT,2,C++,5,Video Tutorials,Yes,2,Interactive quizzes helped reinforce weekly topics.
+RESP_0177,Commerce,4,Java,4,Hands-on Projects,Yes,9,
+RESP_0178,Arts,2,Python,3,Classroom Lectures,No,6,Session notes and documentation were comprehensive.
+RESP_0179,Arts,1,Python,5,Hands-on Projects,No,0,Session notes and documentation were comprehensive.
+RESP_0180,Science,2,Python,4,Online Courses,Yes,7,
+RESP_0181,Arts,1,C++,4,Classroom Lectures,No,10,Could benefit from more advanced challenge exercises.
+RESP_0182,Arts,1,Python,5,Online Courses,No,5,Would love additional real-world case studies in upcoming sessions.
+RESP_0183,Commerce,1,Python,4,Classroom Lectures,Yes,7,Could benefit from more advanced challenge exercises.
+RESP_0184,IT,2,Python,3,Hands-on Projects,Yes,5,"Clear, concise, and engaging presentations throughout."
+RESP_0185,Science,3,Python,2,Video Tutorials,Yes,2,
+RESP_0186,Science,2,C++,3,Hands-on Projects,Yes,3,Would love additional real-world case studies in upcoming sessions.
+RESP_0187,Commerce,2,Python,4,Classroom Lectures,Yes,8,
+RESP_0188,IT,4,JavaScript,4,Video Tutorials,Yes,9,Could benefit from more advanced challenge exercises.
+RESP_0189,Science,3,Python,4,Hands-on Projects,Yes,4,
+RESP_0190,IT,2,Java,3,Online Courses,Yes,6,
+RESP_0191,Arts,1,Java,4,Hands-on Projects,No,5,
+RESP_0192,IT,4,Python,5,Video Tutorials,Yes,1,Great introductory pace for beginners.
+RESP_0193,IT,1,JavaScript,3,Classroom Lectures,No,7,Practical exercises were very helpful for understanding core concepts.
+RESP_0194,Science,2,JavaScript,4,Hands-on Projects,No,8,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0195,IT,4,JavaScript,4,Video Tutorials,No,8,
+RESP_0196,IT,2,Python,4,Classroom Lectures,Yes,6,Great introductory pace for beginners.
+RESP_0197,Commerce,3,Python,3,Hands-on Projects,No,7,
+RESP_0198,Arts,2,Java,4,Video Tutorials,Yes,3,
+RESP_0199,IT,3,Python,5,Hands-on Projects,Yes,4,More live coding demonstrations would be appreciated.
+RESP_0200,IT,1,C++,4,Video Tutorials,No,10,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0201,Science,1,Java,5,Hands-on Projects,Yes,8,Great introductory pace for beginners.
+RESP_0202,Arts,2,Java,5,Online Courses,Yes,10,
+RESP_0203,Commerce,1,C++,3,Online Courses,Yes,9,
+RESP_0204,IT,4,C++,4,Hands-on Projects,No,8,
+RESP_0205,IT,1,Python,4,Hands-on Projects,Yes,10,Loved the hands-on project assignments.
+RESP_0206,IT,2,Python,5,Video Tutorials,Yes,6,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0207,IT,3,Java,2,Classroom Lectures,No,0,
+RESP_0208,Science,3,Java,3,Video Tutorials,Yes,2,
+RESP_0209,IT,2,Python,5,Hands-on Projects,Yes,3,
+RESP_0210,Commerce,2,Python,3,Hands-on Projects,Yes,3,
+RESP_0211,Science,4,C++,4,Online Courses,No,6,Session notes and documentation were comprehensive.
+RESP_0212,Commerce,3,C++,3,Video Tutorials,Yes,8,
+RESP_0213,IT,3,Java,5,Online Courses,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0214,Science,4,Python,5,Video Tutorials,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0215,Science,3,Python,3,Online Courses,No,4,Could benefit from more advanced challenge exercises.
+RESP_0216,Science,1,Java,4,Hands-on Projects,Yes,8,"Clear, concise, and engaging presentations throughout."
+RESP_0217,IT,2,Python,3,Hands-on Projects,Yes,6,Great introductory pace for beginners.
+RESP_0218,IT,1,Java,4,Online Courses,No,0,The tutorials helped bridge theoretical lectures with practice.
+RESP_0219,Arts,3,C++,4,Online Courses,Yes,6,
+RESP_0220,Commerce,4,Python,5,Hands-on Projects,Yes,6,Interactive quizzes helped reinforce weekly topics.
+RESP_0221,IT,2,Python,1,Hands-on Projects,Yes,5,"Clear, concise, and engaging presentations throughout."
+RESP_0222,Commerce,2,Python,3,Video Tutorials,No,9,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0223,Science,1,JavaScript,4,Hands-on Projects,Yes,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0224,Arts,4,Java,4,Hands-on Projects,Yes,8,Loved the hands-on project assignments.
+RESP_0225,IT,1,Python,4,Online Courses,Yes,4,Loved the hands-on project assignments.
+RESP_0226,Arts,1,JavaScript,1,Hands-on Projects,No,9,
+RESP_0227,IT,1,Java,3,Classroom Lectures,No,8,
+RESP_0228,Commerce,1,Java,5,Hands-on Projects,Yes,5,Could benefit from more advanced challenge exercises.
+RESP_0229,Science,2,JavaScript,1,Hands-on Projects,Yes,8,
+RESP_0230,IT,2,Python,3,Video Tutorials,No,7,
+RESP_0231,IT,1,Python,5,Hands-on Projects,Yes,7,
+RESP_0232,Commerce,1,Java,1,Video Tutorials,Yes,4,
+RESP_0233,Arts,1,Python,4,Hands-on Projects,Yes,7,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0234,Commerce,2,C++,3,Online Courses,Yes,3,"Clear, concise, and engaging presentations throughout."
+RESP_0235,Arts,1,Python,5,Classroom Lectures,Yes,4,"Clear, concise, and engaging presentations throughout."
+RESP_0236,Science,3,Python,4,Online Courses,Yes,4,
+RESP_0237,Commerce,1,Python,5,Hands-on Projects,Yes,10,
+RESP_0238,Science,1,Java,3,Hands-on Projects,Yes,6,
+RESP_0239,IT,2,Python,4,Hands-on Projects,Yes,6,
+RESP_0240,IT,2,Python,4,Video Tutorials,Yes,6,
+RESP_0241,Science,1,JavaScript,3,Hands-on Projects,Yes,9,
+RESP_0242,Science,1,Python,3,Hands-on Projects,No,7,
+RESP_0243,IT,4,Python,1,Hands-on Projects,Yes,9,Well-structured modules and clear explanations.
+RESP_0244,Commerce,1,Python,5,Hands-on Projects,No,6,"Clear, concise, and engaging presentations throughout."
+RESP_0245,Commerce,2,Python,4,Hands-on Projects,Yes,4,Could benefit from more advanced challenge exercises.
+RESP_0246,Arts,2,Python,4,Hands-on Projects,No,7,Session notes and documentation were comprehensive.
+RESP_0247,Commerce,2,Java,4,Hands-on Projects,Yes,6,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0248,Commerce,2,Python,4,Video Tutorials,Yes,9,
+RESP_0249,Commerce,3,JavaScript,4,Hands-on Projects,Yes,9,
+RESP_0250,Commerce,4,JavaScript,3,Hands-on Projects,Yes,7,
+RESP_0251,Science,1,Python,4,Video Tutorials,Yes,10,
+RESP_0252,Arts,2,Python,3,Classroom Lectures,Yes,7,
+RESP_0253,Commerce,1,Python,5,Hands-on Projects,No,5,Great introductory pace for beginners.
+RESP_0254,IT,2,Java,4,Video Tutorials,Yes,7,Session notes and documentation were comprehensive.
+RESP_0255,IT,3,Python,3,Online Courses,No,1,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0256,Science,1,JavaScript,4,Video Tutorials,No,9,
+RESP_0257,Science,2,C++,2,Online Courses,No,3,Would love additional real-world case studies in upcoming sessions.
+RESP_0258,IT,4,C++,5,Classroom Lectures,Yes,6,More live coding demonstrations would be appreciated.
+RESP_0259,IT,1,Java,5,Hands-on Projects,Yes,7,
+RESP_0260,Commerce,2,JavaScript,5,Hands-on Projects,Yes,2,More live coding demonstrations would be appreciated.
+RESP_0261,IT,3,Python,3,Video Tutorials,Yes,3,"Clear, concise, and engaging presentations throughout."
+RESP_0262,Science,1,Python,2,Online Courses,No,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0263,IT,1,Python,3,Video Tutorials,Yes,3,
+RESP_0264,IT,1,JavaScript,2,Hands-on Projects,Yes,7,More live coding demonstrations would be appreciated.
+RESP_0265,Arts,4,Java,2,Video Tutorials,Yes,6,
+RESP_0266,IT,1,C++,2,Hands-on Projects,No,5,More live coding demonstrations would be appreciated.
+RESP_0267,IT,1,Python,5,Classroom Lectures,Yes,5,
+RESP_0268,IT,1,JavaScript,2,Video Tutorials,Yes,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0269,IT,1,Java,2,Classroom Lectures,No,10,More live coding demonstrations would be appreciated.
+RESP_0270,IT,3,Java,5,Online Courses,No,4,Would love additional real-world case studies in upcoming sessions.
+RESP_0271,IT,1,JavaScript,4,Video Tutorials,Yes,10,"Clear, concise, and engaging presentations throughout."
+RESP_0272,IT,2,Python,4,Video Tutorials,No,7,Session notes and documentation were comprehensive.
+RESP_0273,IT,2,Python,4,Classroom Lectures,No,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0274,Commerce,4,Java,5,Classroom Lectures,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0275,Science,1,Python,4,Online Courses,No,8,
+RESP_0276,Commerce,4,Python,4,Hands-on Projects,Yes,9,
+RESP_0277,IT,3,Python,4,Video Tutorials,Yes,7,
+RESP_0278,Commerce,1,Python,3,Hands-on Projects,Yes,7,
+RESP_0279,Arts,3,JavaScript,3,Online Courses,Yes,6,
+RESP_0280,Arts,4,Java,4,Video Tutorials,Yes,3,Loved the hands-on project assignments.
+RESP_0281,IT,1,Python,2,Hands-on Projects,Yes,8,
+RESP_0282,IT,4,Python,4,Hands-on Projects,Yes,1,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0283,IT,2,Java,3,Hands-on Projects,Yes,5,The tutorials helped bridge theoretical lectures with practice.
+RESP_0284,IT,3,Java,2,Classroom Lectures,Yes,3,
+RESP_0285,Commerce,4,JavaScript,3,Hands-on Projects,Yes,5,Great introductory pace for beginners.
+RESP_0286,Commerce,2,JavaScript,5,Hands-on Projects,Yes,8,Practical exercises were very helpful for understanding core concepts.
+RESP_0287,IT,3,Python,3,Online Courses,Yes,8,
+RESP_0288,Commerce,1,Python,4,Classroom Lectures,Yes,7,Would love additional real-world case studies in upcoming sessions.
+RESP_0289,Commerce,3,Java,5,Hands-on Projects,No,3,More live coding demonstrations would be appreciated.
+RESP_0290,IT,3,Java,2,Hands-on Projects,Yes,7,
+RESP_0291,Science,1,Java,4,Online Courses,No,6,Interactive quizzes helped reinforce weekly topics.
+RESP_0292,IT,2,Java,3,Classroom Lectures,Yes,8,
+RESP_0293,Arts,1,Java,3,Video Tutorials,Yes,7,
+RESP_0294,IT,1,Python,4,Hands-on Projects,No,7,
+RESP_0295,Arts,1,Python,5,Hands-on Projects,No,7,
+RESP_0296,Arts,2,Python,3,Hands-on Projects,Yes,10,The tutorials helped bridge theoretical lectures with practice.
+RESP_0297,Arts,1,Python,4,Classroom Lectures,Yes,8,
+RESP_0298,Science,1,Python,3,Hands-on Projects,Yes,7,
+RESP_0299,Science,3,C++,4,Hands-on Projects,Yes,7,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0300,Science,3,Python,4,Classroom Lectures,No,1,
+RESP_0301,Science,3,Python,4,Online Courses,No,10,Practical exercises were very helpful for understanding core concepts.
+RESP_0302,IT,1,Java,4,Classroom Lectures,Yes,6,The tutorials helped bridge theoretical lectures with practice.
+RESP_0303,Commerce,4,C++,2,Video Tutorials,Yes,5,Interactive quizzes helped reinforce weekly topics.
+RESP_0304,Commerce,2,Python,4,Video Tutorials,Yes,10,Loved the hands-on project assignments.
+RESP_0305,Arts,1,C++,4,Hands-on Projects,Yes,8,Practical exercises were very helpful for understanding core concepts.
+RESP_0306,Commerce,1,JavaScript,4,Hands-on Projects,Yes,2,Great introductory pace for beginners.
+RESP_0307,Commerce,3,Java,2,Video Tutorials,Yes,2,
+RESP_0308,Science,1,C++,3,Hands-on Projects,Yes,1,
+RESP_0309,IT,2,Python,3,Video Tutorials,Yes,7,Could benefit from more advanced challenge exercises.
+RESP_0310,IT,4,JavaScript,2,Online Courses,Yes,3,Interactive quizzes helped reinforce weekly topics.
+RESP_0311,Commerce,1,Python,3,Online Courses,Yes,10,Would love additional real-world case studies in upcoming sessions.
+RESP_0312,Commerce,1,JavaScript,3,Hands-on Projects,No,10,Interactive quizzes helped reinforce weekly topics.
+RESP_0313,IT,4,Java,4,Hands-on Projects,Yes,7,
+RESP_0314,Commerce,2,Python,3,Hands-on Projects,Yes,8,
+RESP_0315,Commerce,1,Python,5,Hands-on Projects,Yes,6,
+RESP_0316,IT,4,C++,4,Hands-on Projects,Yes,2,
+RESP_0317,Commerce,4,Java,4,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0318,Science,2,Python,4,Classroom Lectures,Yes,3,Loved the hands-on project assignments.
+RESP_0319,IT,3,C++,4,Video Tutorials,Yes,3,
+RESP_0320,Arts,1,JavaScript,4,Online Courses,No,6,Would love additional real-world case studies in upcoming sessions.
+RESP_0321,Arts,1,Java,5,Hands-on Projects,Yes,0,The tutorials helped bridge theoretical lectures with practice.
+RESP_0322,Commerce,2,Java,4,Hands-on Projects,Yes,7,Session notes and documentation were comprehensive.
+RESP_0323,IT,1,Python,4,Hands-on Projects,Yes,8,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0324,Commerce,3,C++,4,Hands-on Projects,No,9,Would love additional real-world case studies in upcoming sessions.
+RESP_0325,Arts,4,Python,4,Hands-on Projects,No,8,More live coding demonstrations would be appreciated.
+RESP_0326,Science,1,JavaScript,2,Online Courses,Yes,9,
+RESP_0327,Science,2,Python,4,Hands-on Projects,Yes,6,
+RESP_0328,Commerce,1,Java,4,Hands-on Projects,Yes,9,Well-structured modules and clear explanations.
+RESP_0329,Science,4,Python,5,Video Tutorials,No,7,Well-structured modules and clear explanations.
+RESP_0330,IT,1,Python,4,Video Tutorials,Yes,5,
+RESP_0331,Science,3,C++,4,Video Tutorials,Yes,10,
+RESP_0332,IT,2,Java,5,Hands-on Projects,Yes,5,"Clear, concise, and engaging presentations throughout."
+RESP_0333,Science,2,Java,3,Classroom Lectures,Yes,1,
+RESP_0334,Arts,3,JavaScript,3,Hands-on Projects,No,5,Practical exercises were very helpful for understanding core concepts.
+RESP_0335,IT,3,JavaScript,3,Hands-on Projects,Yes,6,Loved the hands-on project assignments.
+RESP_0336,Commerce,2,JavaScript,2,Video Tutorials,Yes,6,Interactive quizzes helped reinforce weekly topics.
+RESP_0337,IT,3,Python,1,Online Courses,Yes,7,
+RESP_0338,Science,4,Java,3,Hands-on Projects,Yes,9,Great introductory pace for beginners.
+RESP_0339,IT,2,JavaScript,4,Video Tutorials,Yes,6,Great introductory pace for beginners.
+RESP_0340,Arts,2,Python,4,Hands-on Projects,Yes,7,"Clear, concise, and engaging presentations throughout."
+RESP_0341,IT,1,Python,1,Hands-on Projects,No,6,
+RESP_0342,Arts,3,C++,4,Hands-on Projects,Yes,9,Practical exercises were very helpful for understanding core concepts.
+RESP_0343,Science,2,Java,2,Classroom Lectures,Yes,4,
+RESP_0344,Commerce,2,Java,5,Hands-on Projects,Yes,3,More live coding demonstrations would be appreciated.
+RESP_0345,Science,1,JavaScript,2,Classroom Lectures,Yes,7,Great introductory pace for beginners.
+RESP_0346,Science,4,Java,4,Hands-on Projects,Yes,8,
+RESP_0347,Arts,2,Java,3,Online Courses,Yes,8,
+RESP_0348,IT,3,Python,4,Classroom Lectures,Yes,7,
+RESP_0349,Commerce,1,Python,3,Hands-on Projects,No,8,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0350,IT,4,Python,4,Hands-on Projects,Yes,6,
+RESP_0351,Commerce,1,C++,3,Hands-on Projects,Yes,1,More live coding demonstrations would be appreciated.
+RESP_0352,IT,1,C++,5,Classroom Lectures,Yes,4,
+RESP_0353,Commerce,4,Python,4,Hands-on Projects,No,1,Loved the hands-on project assignments.
+RESP_0354,Commerce,4,Python,4,Video Tutorials,Yes,6,
+RESP_0355,Commerce,1,JavaScript,5,Hands-on Projects,No,7,
+RESP_0356,Commerce,2,Python,5,Classroom Lectures,No,6,"Clear, concise, and engaging presentations throughout."
+RESP_0357,Science,3,Java,3,Video Tutorials,Yes,7,Could benefit from more advanced challenge exercises.
+RESP_0358,Science,4,Java,3,Video Tutorials,Yes,7,
+RESP_0359,Commerce,2,C++,3,Online Courses,No,8,Loved the hands-on project assignments.
+RESP_0360,Commerce,2,Python,3,Hands-on Projects,Yes,8,Could benefit from more advanced challenge exercises.
+RESP_0361,Arts,3,C++,4,Classroom Lectures,Yes,6,
+RESP_0362,IT,3,Python,5,Hands-on Projects,Yes,6,
+RESP_0363,IT,3,Java,5,Video Tutorials,Yes,7,
+RESP_0364,IT,2,Python,4,Online Courses,Yes,7,
+RESP_0365,Science,1,Java,4,Video Tutorials,Yes,6,Could benefit from more advanced challenge exercises.
+RESP_0366,Commerce,4,Java,5,Video Tutorials,Yes,6,
+RESP_0367,Science,4,Python,5,Hands-on Projects,Yes,8,
+RESP_0368,Science,3,Python,3,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0369,IT,1,Python,4,Hands-on Projects,No,4,
+RESP_0370,Arts,1,Python,5,Video Tutorials,Yes,7,
+RESP_0371,Science,3,Python,3,Video Tutorials,Yes,9,
+RESP_0372,IT,1,JavaScript,3,Hands-on Projects,Yes,1,Would love additional real-world case studies in upcoming sessions.
+RESP_0373,Commerce,4,Python,5,Hands-on Projects,Yes,9,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0374,IT,2,C++,5,Hands-on Projects,Yes,4,
+RESP_0375,IT,3,JavaScript,5,Hands-on Projects,Yes,7,
+RESP_0376,IT,4,Python,4,Hands-on Projects,Yes,7,
+RESP_0377,Arts,2,Java,3,Online Courses,Yes,0,
+RESP_0378,Commerce,1,JavaScript,3,Video Tutorials,Yes,9,
+RESP_0379,Commerce,3,Java,4,Hands-on Projects,Yes,7,Could benefit from more advanced challenge exercises.
+RESP_0380,Science,2,Java,4,Video Tutorials,Yes,10,
+RESP_0381,Commerce,2,Java,4,Classroom Lectures,Yes,6,
+RESP_0382,Arts,3,Python,4,Hands-on Projects,Yes,9,"Clear, concise, and engaging presentations throughout."
+RESP_0383,Science,4,Java,3,Hands-on Projects,Yes,10,
+RESP_0384,Commerce,2,JavaScript,4,Hands-on Projects,Yes,7,
+RESP_0385,Commerce,1,JavaScript,3,Hands-on Projects,Yes,5,
+RESP_0386,Arts,2,Python,3,Classroom Lectures,Yes,8,
+RESP_0387,Science,2,C++,2,Online Courses,Yes,7,Practical exercises were very helpful for understanding core concepts.
+RESP_0388,Arts,1,Python,3,Hands-on Projects,No,10,Could benefit from more advanced challenge exercises.
+RESP_0389,IT,1,JavaScript,5,Classroom Lectures,Yes,7,Would love additional real-world case studies in upcoming sessions.
+RESP_0390,Arts,3,Python,3,Hands-on Projects,Yes,5,
+RESP_0391,Science,2,JavaScript,3,Video Tutorials,Yes,4,
+RESP_0392,IT,4,C++,4,Classroom Lectures,No,8,
+RESP_0393,Commerce,1,Python,4,Hands-on Projects,Yes,10,
+RESP_0394,Science,1,Python,1,Hands-on Projects,Yes,1,
+RESP_0395,IT,3,C++,3,Video Tutorials,No,8,The tutorials helped bridge theoretical lectures with practice.
+RESP_0396,Commerce,4,Python,2,Online Courses,Yes,10,
+RESP_0397,Science,1,Java,4,Hands-on Projects,No,3,
+RESP_0398,IT,1,JavaScript,3,Hands-on Projects,Yes,4,More live coding demonstrations would be appreciated.
+RESP_0399,Commerce,1,Java,2,Hands-on Projects,Yes,8,Well-structured modules and clear explanations.
+RESP_0400,Commerce,2,Python,1,Video Tutorials,Yes,8,
+RESP_0401,IT,2,Java,4,Video Tutorials,Yes,2,Would love additional real-world case studies in upcoming sessions.
+RESP_0402,Arts,1,Python,1,Classroom Lectures,No,9,Loved the hands-on project assignments.
+RESP_0403,Science,1,JavaScript,5,Classroom Lectures,Yes,7,
+RESP_0404,IT,2,Python,2,Online Courses,No,9,
+RESP_0405,Arts,4,Python,4,Classroom Lectures,Yes,9,More live coding demonstrations would be appreciated.
+RESP_0406,Arts,3,Python,3,Hands-on Projects,Yes,9,
+RESP_0407,IT,2,JavaScript,3,Video Tutorials,No,7,More live coding demonstrations would be appreciated.
+RESP_0408,Science,1,Python,2,Hands-on Projects,Yes,5,
+RESP_0409,IT,1,JavaScript,4,Hands-on Projects,No,7,More live coding demonstrations would be appreciated.
+RESP_0410,Arts,1,C++,5,Online Courses,Yes,3,
+RESP_0411,Science,3,C++,1,Video Tutorials,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0412,Science,4,JavaScript,2,Online Courses,Yes,4,
+RESP_0413,IT,4,JavaScript,5,Hands-on Projects,Yes,7,Session notes and documentation were comprehensive.
+RESP_0414,Arts,4,JavaScript,4,Video Tutorials,Yes,2,
+RESP_0415,IT,4,Python,2,Video Tutorials,Yes,6,
+RESP_0416,IT,4,C++,3,Hands-on Projects,Yes,5,Loved the hands-on project assignments.
+RESP_0417,IT,1,Java,4,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0418,Science,1,Java,4,Video Tutorials,No,8,Could benefit from more advanced challenge exercises.
+RESP_0419,IT,1,JavaScript,4,Hands-on Projects,Yes,2,"Clear, concise, and engaging presentations throughout."
+RESP_0420,Arts,2,JavaScript,5,Online Courses,Yes,9,The tutorials helped bridge theoretical lectures with practice.
+RESP_0421,Science,1,C++,4,Hands-on Projects,No,9,Loved the hands-on project assignments.
+RESP_0422,IT,4,Java,3,Hands-on Projects,Yes,6,Well-structured modules and clear explanations.
+RESP_0423,IT,3,Java,4,Classroom Lectures,Yes,8,Great introductory pace for beginners.
+RESP_0424,IT,2,Python,3,Hands-on Projects,Yes,6,
+RESP_0425,Commerce,1,Python,3,Online Courses,Yes,4,
+RESP_0426,Science,1,Python,1,Classroom Lectures,Yes,7,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0427,IT,1,Python,3,Hands-on Projects,Yes,3,
+RESP_0428,Arts,4,Python,4,Video Tutorials,Yes,9,Session notes and documentation were comprehensive.
+RESP_0429,IT,2,C++,1,Video Tutorials,Yes,10,The tutorials helped bridge theoretical lectures with practice.
+RESP_0430,Science,3,Java,3,Classroom Lectures,Yes,9,
+RESP_0431,Arts,1,JavaScript,4,Classroom Lectures,Yes,7,Great introductory pace for beginners.
+RESP_0432,Science,2,Java,4,Classroom Lectures,Yes,7,
+RESP_0433,Science,2,Python,4,Video Tutorials,Yes,10,
+RESP_0434,Science,3,Python,4,Hands-on Projects,No,5,
+RESP_0435,IT,3,Python,4,Video Tutorials,Yes,3,
+RESP_0436,IT,1,JavaScript,2,Online Courses,Yes,7,The tutorials helped bridge theoretical lectures with practice.
+RESP_0437,IT,4,Python,4,Video Tutorials,Yes,6,Loved the hands-on project assignments.
+RESP_0438,Commerce,1,Java,4,Video Tutorials,Yes,6,Interactive quizzes helped reinforce weekly topics.
+RESP_0439,Science,4,JavaScript,3,Hands-on Projects,Yes,0,
+RESP_0440,Science,1,JavaScript,1,Classroom Lectures,Yes,7,More live coding demonstrations would be appreciated.
+RESP_0441,Arts,1,Python,3,Online Courses,No,5,
+RESP_0442,IT,4,Python,3,Hands-on Projects,Yes,5,Session notes and documentation were comprehensive.
+RESP_0443,Science,1,Python,3,Hands-on Projects,No,2,
+RESP_0444,IT,2,Python,2,Video Tutorials,Yes,6,The tutorials helped bridge theoretical lectures with practice.
+RESP_0445,IT,2,Python,5,Video Tutorials,Yes,9,Could benefit from more advanced challenge exercises.
+RESP_0446,Science,1,Java,5,Video Tutorials,Yes,6,
+RESP_0447,Arts,3,JavaScript,3,Hands-on Projects,Yes,8,Loved the hands-on project assignments.
+RESP_0448,Commerce,4,Java,5,Hands-on Projects,No,8,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0449,IT,4,Java,1,Video Tutorials,No,6,
+RESP_0450,Commerce,2,Python,5,Video Tutorials,No,9,Great introductory pace for beginners.
+RESP_0451,IT,2,C++,5,Video Tutorials,Yes,8,
+RESP_0452,Arts,1,Java,1,Classroom Lectures,No,7,
+RESP_0453,Science,1,JavaScript,4,Video Tutorials,Yes,0,Session notes and documentation were comprehensive.
+RESP_0454,IT,1,JavaScript,5,Classroom Lectures,No,1,
+RESP_0455,IT,4,Python,5,Video Tutorials,Yes,10,
+RESP_0456,IT,4,Python,5,Video Tutorials,Yes,8,
+RESP_0457,Arts,3,Python,4,Video Tutorials,Yes,10,
+RESP_0458,Commerce,2,Java,2,Hands-on Projects,Yes,9,The tutorials helped bridge theoretical lectures with practice.
+RESP_0459,Science,2,JavaScript,5,Hands-on Projects,Yes,1,
+RESP_0460,Science,2,Python,4,Video Tutorials,No,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0461,Commerce,2,C++,4,Online Courses,No,7,
+RESP_0462,IT,2,Java,3,Video Tutorials,No,8,
+RESP_0463,Arts,1,Python,4,Hands-on Projects,Yes,0,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0464,IT,1,Python,2,Video Tutorials,Yes,6,More live coding demonstrations would be appreciated.
+RESP_0465,Commerce,4,Java,4,Hands-on Projects,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0466,Science,2,C++,2,Classroom Lectures,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0467,Science,4,Java,4,Classroom Lectures,Yes,8,
+RESP_0468,Arts,1,Python,5,Video Tutorials,Yes,6,
+RESP_0469,IT,2,C++,4,Video Tutorials,Yes,6,
+RESP_0470,Commerce,1,Python,4,Hands-on Projects,Yes,10,Would love additional real-world case studies in upcoming sessions.
+RESP_0471,Commerce,1,JavaScript,3,Video Tutorials,Yes,7,
+RESP_0472,Commerce,1,Python,5,Online Courses,Yes,7,
+RESP_0473,IT,1,Python,4,Classroom Lectures,Yes,7,
+RESP_0474,IT,4,Java,3,Video Tutorials,No,6,Session notes and documentation were comprehensive.
+RESP_0475,IT,2,Java,2,Hands-on Projects,Yes,7,Well-structured modules and clear explanations.
+RESP_0476,IT,3,Java,3,Hands-on Projects,No,7,Interactive quizzes helped reinforce weekly topics.
+RESP_0477,Commerce,2,Java,4,Hands-on Projects,Yes,9,
+RESP_0478,Commerce,2,JavaScript,5,Hands-on Projects,Yes,9,The tutorials helped bridge theoretical lectures with practice.
+RESP_0479,Science,2,Java,4,Hands-on Projects,Yes,10,
+RESP_0480,Commerce,1,Java,3,Online Courses,No,7,Would love additional real-world case studies in upcoming sessions.
+RESP_0481,Commerce,4,Java,5,Video Tutorials,Yes,7,
+RESP_0482,IT,3,Python,3,Hands-on Projects,Yes,8,Practical exercises were very helpful for understanding core concepts.
+RESP_0483,Commerce,3,Java,5,Hands-on Projects,Yes,9,Interactive quizzes helped reinforce weekly topics.
+RESP_0484,IT,2,Python,3,Hands-on Projects,Yes,7,More live coding demonstrations would be appreciated.
+RESP_0485,IT,1,Java,4,Classroom Lectures,Yes,8,More live coding demonstrations would be appreciated.
+RESP_0486,Commerce,4,Python,5,Hands-on Projects,Yes,8,"Clear, concise, and engaging presentations throughout."
+RESP_0487,Commerce,2,JavaScript,3,Classroom Lectures,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0488,IT,1,Java,4,Classroom Lectures,Yes,8,
+RESP_0489,Commerce,2,JavaScript,5,Hands-on Projects,Yes,5,Well-structured modules and clear explanations.
+RESP_0490,Commerce,3,Java,2,Video Tutorials,Yes,7,
+RESP_0491,Science,3,Python,2,Online Courses,No,7,Session notes and documentation were comprehensive.
+RESP_0492,Science,3,C++,4,Hands-on Projects,No,0,Would love additional real-world case studies in upcoming sessions.
+RESP_0493,Science,3,Java,3,Hands-on Projects,Yes,9,Great introductory pace for beginners.
+RESP_0494,IT,1,C++,2,Online Courses,Yes,8,
+RESP_0495,Science,4,Java,4,Online Courses,Yes,4,"Clear, concise, and engaging presentations throughout."
+RESP_0496,Commerce,2,Java,4,Video Tutorials,Yes,9,"Pacing was slightly fast in the middle modules, but overall great content."
+RESP_0497,Commerce,3,JavaScript,3,Video Tutorials,Yes,8,Would love additional real-world case studies in upcoming sessions.
+RESP_0498,Science,1,Java,3,Hands-on Projects,Yes,8,Great introductory pace for beginners.
+RESP_0499,Commerce,4,Python,5,Classroom Lectures,No,6,Great introductory pace for beginners.
+RESP_0500,Commerce,1,C++,4,Video Tutorials,Yes,9,
