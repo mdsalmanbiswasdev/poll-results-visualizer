@@ -342,6 +342,51 @@ poll-results-visualizer/
 
 ---
 
-## 10. License
+## 11. Future Improvements and Roadmap
+
+The Poll Results Visualizer architecture is designed for modular extensibility. The following strategic and technical improvements represent the planned roadmap:
+
+### 1. Live Polling Integration
+- Deploy synchronous audience voting via mobile-friendly web interfaces and QR codes.
+- Implement bidirectional WebSocket communication using FastAPI WebSockets to ingest incoming responses during live presentations, town halls, or lectures with zero compilation lag.
+- Incorporate IP-based and token-based rate limiting via Redis to prevent duplicate submissions.
+
+### 2. Streamlit Dashboard Enhancements
+- Role-Based Access Control (RBAC): Introduce user authentication (via Streamlit Authenticator or OAuth2) separating Administrator, Analyst, and Executive access tiers.
+- Automated Executive Export: Add single-click generation of branded PDF summary briefs and PowerPoint presentation decks directly from dashboard state.
+- WCAG 2.1 Accessibility: Implement high-contrast color modes and screen-reader compliant data visualizations.
+
+### 3. Sentiment Analysis on Open-Ended Responses
+- Transformer NLP Pipeline: Integrate Hugging Face pretrained models (such as DistilRoBERTa or CardiffNLP sentiment models) to score polarity and subjectivity on the qualitative feedback column.
+- Thematic Topic Modeling: Deploy KeyBERT or BERTopic to cluster qualitative comments automatically into recurring feedback themes (e.g., pace of instruction, laboratory support, documentation clarity).
+- Sentiment-stratified word frequency visualizations embedded directly into the Insights tab.
+
+### 4. Demographic Deep-Dive Analysis
+- Hypothesis Testing: Implement Chi-Square tests of independence and ANOVA to determine whether satisfaction differentials across cohorts and departments meet statistical significance thresholds (p < 0.05).
+- Multivariate Regression: Calculate odds ratios and regression coefficients to measure the relative impact of learning methodology and study year on final recommendation scores.
+- Predictive Persona Clustering: Apply unsupervised k-means clustering to identify distinct respondent profiles.
+
+### 5. Real-Time Result Updates
+- Event-Driven Streaming: Integrate an Apache Kafka or Redis Pub-Sub pipeline to stream responses continuously into an analytical data store.
+- Asynchronous Dashboard Refresh: Connect Streamlit background listeners to refresh KPI metric cards and Plotly distributions dynamically as votes arrive without manual browser reloads.
+
+### 6. REST API Integration
+- Decoupled Microservice Architecture: Expose data loading, cleaning, aggregation, and dynamic insight generation through an asynchronous FastAPI service.
+- RESTful Endpoints:
+  - `POST /api/v1/surveys/ingest`: Ingests and validates survey payloads against strict Pydantic schemas.
+  - `GET /api/v1/surveys/summary`: Returns descriptive metrics and distribution tables as JSON.
+  - `GET /api/v1/surveys/insights`: Delivers dynamically calculated narrative insights.
+  - `GET /api/v1/surveys/export`: Generates on-demand filtered CSV and Parquet extracts.
+- Interactive OpenAPI Swagger documentation available at `/docs`.
+
+### 7. Power BI Dashboard Integration
+- Enterprise Semantic Modeling: Publish processed survey tables to Microsoft Power BI via DirectQuery or scheduled automated refresh pipelines.
+- DAX Measure Library: Implement standardized Data Analysis Expressions for executive Net Promoter metrics, top-box satisfaction shares, and department benchmarks.
+- Embedded Executive Reports: Embed Power BI analytical views within corporate portals and Microsoft Teams channels.
+
+---
+
+## 12. License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software for educational and commercial purposes.
+
