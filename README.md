@@ -4,210 +4,161 @@ An Interactive Survey Analytics and Business Insights Dashboard.
 
 ---
 
-## Executive Summary
+## 1. Project Overview
 
-The Poll Results Visualizer is an end-to-end data science and business analytics application designed to ingest, clean, analyze, and visualize structured survey data. Built with Python, Pandas, Plotly, and Streamlit, the platform transforms raw survey responses into interactive business intelligence dashboards and automated executive narrative summaries.
+The Poll Results Visualizer is an end-to-end survey analytics platform designed to convert raw polling data into interactive visual intelligence and automated executive narrative reports. Built with Python, Pandas, Plotly, and Streamlit, the application automates data ingestion, sanitization, exploratory statistical evaluation, dynamic charting, and narrative insight synthesis.
 
-The architecture emphasizes modular engineering standards, strict data schema validation, reproducible analysis, and comprehensive test coverage (90 unit and integration tests passing). It is engineered for both technical developers seeking extensible data pipelines and business managers requiring immediate visibility into survey distributions, cohort satisfaction, and actionable metrics.
+The project demonstrates modular software engineering principles, automated test-driven development (90 unit and integration tests passing), and clean data governance. It serves both technical practitioners seeking an extensible data science pipeline and management stakeholders requiring clear, real-time visibility into survey distributions and satisfaction metrics.
 
----
-
-## Business Problem and Solution
-
-### The Challenge
-Organizations frequently collect survey and poll data across departments, academic years, or customer segments. However, raw survey data often suffers from:
-- Inconsistent respondent inputs, trailing whitespace, and unstandardized categorical labels.
-- Missing values in optional feedback fields that can compromise downstream processing.
-- Static spreadsheets that fail to provide real-time filtering, cross-tabulation, or intuitive visual comparisons.
-- Manual analytical workflows that delay reporting and obscure high-impact findings.
-
-### The Solution
-The Poll Results Visualizer addresses these challenges through an automated pipeline:
-1. Automated Data Hygiene: Enforces deterministic data contracts and type validation during ingestion while preserving raw data immutability.
-2. Statistical Engine: Calculates descriptive summaries, categorical frequency distributions, and multi-dimensional cross-tabulations on demand.
-3. Interactive Visualization Layer: Provides responsive, publication-quality Plotly visualizations with grouped, stacked, count, and percentage views.
-4. Dynamic Executive Insights: Synthesizes key metrics into clear narrative bullet points that automatically recalculate whenever dataset filters change.
-5. Self-Service Explorer: Empowers non-technical stakeholders to slice, search, review, and export customized subsets of survey data as CSV files.
+All data in this repository is 100% synthetic (generated deterministically under seed 42 with N=500 respondents) to ensure complete data privacy while providing fully reproducible benchmarks.
 
 ---
 
-## System Architecture
+## 2. Business Problem
 
-The project follows a clean modular architecture separating data ingestion, business logic, visual rendering, and the user interface.
+Organizations frequently collect survey and polling feedback across academic cohorts, employee teams, or customer segments. Despite the value of this feedback, traditional analysis workflows suffer from critical bottlenecks:
+
+- Inconsistent Data Hygiene: Raw survey responses often include trailing whitespace, irregular text casing, and non-standard categorical entries that break automated downstream processes.
+- Fragile Missing Value Handling: Real surveys contain optional free-text comments or blank feedback fields. Traditional pipelines either drop incomplete records entirely (distorting sample representativeness) or crash on unhandled nulls.
+- Static and Inflexible Reporting: Standard spreadsheets and slide decks provide static snapshots that cannot be filtered interactively by department, study year, or cohort attributes.
+- Manual and Delayed Reporting: Analysts spend hours writing repetitive narrative summaries for each demographic segment rather than leveraging automated, deterministic insight engines.
+
+---
+
+## 3. Solution Architecture
+
+The Poll Results Visualizer solves these challenges through a modular, decoupled architecture where each stage of the lifecycle is handled by a specialized component:
 
 ```
-                    +-----------------------------+
-                    |   Raw Survey Data Source    |
-                    | (data/raw/sample_poll_data) |
-                    +--------------+--------------+
-                                   |
-                                   v
-                    +-----------------------------+
-                    |      Data Loader Module     |
-                    |    (src/data_loader.py)     |
-                    +--------------+--------------+
-                                   |
-                                   v
-                    +-----------------------------+
-                    |    Data Cleaning Module     |
-                    |    (src/data_cleaning.py)   |
-                    +--------------+--------------+
-                                   |
-                                   v
-                    +-----------------------------+
-                    |   Clean Processed Dataset   |
-                    |(data/processed/clean_data)  |
-                    +--------------+--------------+
-                                   |
-                 +-----------------+-----------------+
-                 |                                   |
-                 v                                   v
-   +---------------------------+       +---------------------------+
-   | Statistical Engine Module |       |   Visualizations Module   |
-   |     (src/analysis.py)     |       |   (src/visualizations.py) |
-   +-------------+-------------+       +-------------+-------------+
-                 |                                   |
-                 v                                   |
-   +---------------------------+                     |
-   | Dynamic Insights Engine   |                     |
-   |    (src/insights.py)      |                     |
-   +-------------+-------------+                     |
-                 |                                   |
-                 +-----------------+-----------------+
-                                   |
-                                   v
-                    +-----------------------------+
-                    | Streamlit Interactive App   |
-                    |          (app.py)           |
-                    +-----------------------------+
++-----------------------------------------------------------------------------------+
+|                                 SYSTEM ARCHITECTURE                               |
++-----------------------------------------------------------------------------------+
+                                          |
+                                          v
+                         +----------------------------------+
+                         |     Raw Survey Data Ingestion    |
+                         |   (data/raw/sample_poll_data)    |
+                         +----------------+-----------------+
+                                          |
+                                          v
+                         +----------------------------------+
+                         |        Data Loader Module        |
+                         |       (src/data_loader.py)       |
+                         +----------------+-----------------+
+                                          |
+                                          v
+                         +----------------------------------+
+                         |       Data Cleaning Suite        |
+                         |      (src/data_cleaning.py)      |
+                         +----------------+-----------------+
+                                          |
+                                          v
+                         +----------------------------------+
+                         |      Clean Processed Dataset     |
+                         | (data/processed/clean_poll_data) |
+                         +----------------+-----------------+
+                                          |
+                 +------------------------+------------------------+
+                 |                                                 |
+                 v                                                 v
+   +----------------------------+                    +----------------------------+
+   | Statistical Analysis Engine|                    | Interactive Visualizations |
+   |      (src/analysis.py)     |                    |   (src/visualizations.py)  |
+   +-------------+--------------+                    +--------------+-------------+
+                 |                                                  |
+                 v                                                  |
+   +----------------------------+                                   |
+   | Dynamic Business Insights  |                                   |
+   |      (src/insights.py)     |                                   |
+   +-------------+--------------+                                   |
+                 |                                                  |
+                 +------------------------+-------------------------+
+                                          |
+                                          v
+                         +----------------------------------+
+                         |    Streamlit Interactive App     |
+                         |             (app.py)             |
+                         +----------------------------------+
 ```
 
----
-
-## Dashboard Interface and Screenshots
-
-The platform features a modern, dark-themed user interface organized into four primary functional tabs with persistent sidebar filtering.
-
-### 1. Overview Tab
-Provides immediate visibility into headline Key Performance Indicators (KPIs), summary metric cards, descriptive statistics, missing data audits, and cohort distributions.
-
-![Dashboard Overview](images/dashboard_overview.png)
-*Figure 1: Executive KPI metric cards, numeric distribution summary, and department breakdown.*
-
-### 2. Visualizations Tab
-Houses six interactive Plotly charts supporting real-time toggling between grouped and stacked layouts, as well as raw counts and normalized percentages.
-
-![Interactive Visualizations](images/visualizations_tab.png)
-*Figure 2: Interactive Plotly chart gallery with dynamic visual configuration controls.*
-
-### 3. Dynamic Insights Tab
-Renders dynamically calculated executive summaries categorized into thematic cards with color-coded sentiment accents.
-
-![Automated Insights](images/automated_insights.png)
-*Figure 3: Automated narrative insights generated directly from cohort-filtered responses.*
-
-### 4. Raw Data Explorer Tab
-Offers a responsive data grid with free-text search across all columns, dynamic column selection, filtered record counters, and instant CSV export capabilities.
-
-![Raw Data Explorer](images/data_explorer.png)
-*Figure 4: Self-service data table with column selector, search filter, and CSV download.*
-
-*Note: Visual screenshot assets are maintained in the `images/` directory. If screenshots are pending upload, the application can be explored live via the local Streamlit server.*
+1. Ingestion and Verification: The Data Loader enforces strict data contracts, column typing, and boundary protections.
+2. Cleaning and Standardization: The Cleaning module trims string whitespace, enforces numeric domain bounds, validates categorical vocabularies, and safely tracks optional comments without data loss.
+3. Analytical Computation: The Analysis module computes summary statistics, frequency tables, and multi-variable cross-tabulations.
+4. Dynamic Insight Generation: The Insights module evaluates aggregated metrics against business rules to generate automated, narrative findings.
+5. Interactive Web Interface: Streamlit combines all components into a four-tab dashboard with cascading sidebar filters.
 
 ---
 
-## Core Modules and Capabilities
+## 4. Key Features and Capabilities
 
-### Data Ingestion (src/data_loader.py)
-- Ingests raw CSV data with boundary checks for missing files, zero-byte files, and unreadable directories.
-- Validates the presence and integrity of all required columns against strict schema definitions.
-- Returns immutable copies of the DataFrame to prevent unintended side effects.
+### Data Hygiene and Integrity
+- Automatic whitespace trimming across all categorical and text fields.
+- Value range enforcement: Training Satisfaction (1 to 5) and Recommendation Score (0 to 10).
+- Categorical vocabulary validation across departments, programming languages, and learning methods.
+- Accurate handling of optional text feedback, retaining 235 null comment records without corruption.
+- Deterministic synthetic dataset generator (`generate_data.py`) configured with fixed random seed 42.
 
-### Data Cleaning and Normalization (src/data_cleaning.py)
-- Strips leading and trailing whitespace from string and categorical columns.
-- Validates integer ranges (Training Satisfaction between 1 and 5; Recommendation Score between 0 and 10).
-- Verifies categorical values against allowable domain vocabularies.
-- Identifies and handles duplicate response identifiers.
-- Accurately tracks and preserves nulls in optional feedback columns (`comments`).
-- Writes clean, sanitized outputs to `data/processed/clean_poll_data.csv`.
+### Statistical Analysis Engine
+- Dataset structural overview: record count, column count, and data types.
+- Missingness audits: exact null counts and percentages per column.
+- Numeric summary metrics: Mean, Median, Standard Deviation, Minimum, and Maximum.
+- Single-variable frequency counts and percentages.
+- Two-variable cross-tabulations with optional row/column normalization.
 
-### Statistical Analysis (src/analysis.py)
-- Computes comprehensive dataset overviews: row counts, column counts, and memory/data types.
-- Audits missing-value distributions with count and percentage metrics per column.
-- Calculates descriptive metrics: Mean, Median, Standard Deviation, Minimum, and Maximum.
-- Generates single-variable frequency tables and two-variable cross-tabulations (raw counts and row/column percentages).
-
-### Interactive Visualizations (src/visualizations.py)
-Generates six publication-ready Plotly figures:
+### Six Interactive Plotly Visualizations
 1. Training Satisfaction Distribution: Bar chart analyzing satisfaction scores (1 to 5).
 2. Preferred Programming Language Distribution: Horizontal bar chart ranking language preferences.
-3. Preferred Learning Method Distribution: Visual breakdown of project-based, video, or documentation learning modes.
-4. Department versus Preferred Language: Cross-tabulation chart with grouped and stacked view toggles.
-5. Recommendation Score Distribution: Net Promoter-style histogram (0 to 10 scale).
-6. Department versus Internship Interest: Comparative cohort breakdown measuring career readiness.
+3. Preferred Learning Method Distribution: Categorical breakdown of hands-on, video, and documentation modalities.
+4. Department vs. Preferred Language: Cross-tabulation bar chart with grouped and stacked toggle views.
+5. Recommendation Score Distribution: Net Promoter style histogram (0 to 10 scale).
+6. Department vs. Internship Interest: Comparative cohort breakdown measuring career readiness.
 
-### Automated Business Insights (src/insights.py)
-Computes seven dynamic narrative insights directly from data:
-1. Top Programming Language: Identifies the modal language, total counts, and cohort percentage.
-2. Top Learning Method: Detects the most favored training modality.
-3. Overall Satisfaction Index: Calculates average, median, and top-box satisfaction percentages (ratings of 4 or 5).
-4. Departmental Career Interest Leader: Highlights the academic department with the highest internship interest.
-5. Overall Internship Participation: Computes total population demand for internship placement programs.
-6. Recommendation Score Index: Measures Net Promoter distribution and top-tier score percentages (ratings of 9 or 10).
-7. Qualitative Feedback Engagement: Tracks response rates for optional free-text comments.
+### Automated Executive Narrative Insights
+- Top Programming Language: Detects modal choice, response volume, and population share.
+- Top Learning Method: Detects most preferred training methodology.
+- Training Satisfaction Index: Average rating, median, and percentage of positive respondents (ratings 4 and 5).
+- Departmental Career Leader: Identifies the academic department with highest internship interest percentage.
+- Overall Internship Demand: Measures total population placement participation interest.
+- Recommendation Score Index: Calculates average, median, and top-tier promoter percentage (ratings 9 and 10).
+- Qualitative Feedback Engagement: Tracks response and completion rates for open-ended comments.
 
----
-
-## Dataset Specifications
-
-The platform is packaged with a reproducible synthetic survey dataset generated via NumPy and Pandas (`generate_data.py`).
-
-| Field Name | Data Type | Permitted Values / Range | Description |
-| :--- | :--- | :--- | :--- |
-| `response_id` | String | Unique string identifier | Respondent identifier |
-| `department` | Categorical | Computer Science, IT, Electronics, Mechanical | Academic department |
-| `study_year` | Integer | 1, 2, 3, 4 | Current year of study |
-| `preferred_language` | Categorical | Python, Java, C++, JavaScript | Primary programming language |
-| `training_satisfaction` | Integer | 1 to 5 | Satisfaction rating with training curriculum |
-| `preferred_learning_method` | Categorical | Hands-on Projects, Video Tutorials, Documentation | Preferred educational format |
-| `internship_interest` | Categorical | Yes, No | Interest in internship opportunities |
-| `recommendation_score` | Integer | 0 to 10 | Likelihood to recommend program |
-| `comments` | String / Null | Text feedback or NaN | Optional open-ended qualitative comments |
-
-*Notice on Data Privacy: All data in this repository is 100% synthetic, generated under seed 42 (500 records). No real-world individuals, protected attributes, or personally identifiable information (PII) are stored.*
+### Self-Service Dashboard Interface
+- Persistent sidebar filters: Department multiselect, Study Year multiselect, and Count vs. Percentage toggles.
+- Real-time KPI metric cards: Total Respondents, Average Satisfaction, Average Recommendation, and Internship Interest Rate.
+- Raw Data Explorer: Full-text search across all columns, column subset selector, and instant CSV export.
 
 ---
 
-## Technology Stack
+## 5. Technology Stack
 
-- Language: Python 3.10+ (tested on Python 3.14.3)
-- Data Processing: Pandas, NumPy
-- Data Visualization: Plotly Graph Objects and Express
-- Web Framework: Streamlit
-- Testing Framework: Pytest
-- Environment Management: Python venv
-- Notebooks: Jupyter / IPython
+- Core Programming Language: Python 3.10+ (tested and verified on Python 3.14.3)
+- Data Manipulation and Analysis: Pandas, NumPy
+- Interactive Charting Engine: Plotly Graph Objects and Plotly Express
+- Web Dashboard Framework: Streamlit
+- Testing and Quality Assurance: Pytest
+- Development and Exploration: Jupyter / IPython Notebooks
+- Version Control: Git, GitHub
 
 ---
 
-## Installation and Setup
+## 6. How to Run and Execute
 
-### 1. Prerequisites
-Ensure Python 3.10 or higher and Git are installed on your system.
-
-Verify your environment:
+### Prerequisites
+Ensure Python 3.10 or higher and Git are installed:
 ```powershell
 python --version
 git --version
 ```
 
-### 2. Clone the Repository
+### Installation Steps
+
+1. Clone the repository:
 ```powershell
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY_NAME>.git
-cd <YOUR_REPOSITORY_NAME>
+git clone https://github.com/mdsalmanbiswasdev/poll-results-visualizer.git
+cd poll-results-visualizer
 ```
 
-### 3. Set Up a Virtual Environment
+2. Set up and activate a virtual environment:
 ```powershell
 # Windows PowerShell
 python -m venv .venv
@@ -218,67 +169,129 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 4. Install Dependencies
+3. Install required dependencies:
 ```powershell
 pip install -r requirements.txt
 ```
 
-### 5. Optional Environment Configuration
-If custom server settings or alternative file paths are required, copy `.env.example` to `.env`:
+4. Optional configuration:
+If custom port or path settings are desired, copy the provided environment template:
 ```powershell
 Copy-Item .env.example .env
 ```
-*Note: The `.env` file is excluded from Git tracking by `.gitignore` to ensure security.*
+Note: The `.env` file is excluded from version control by `.gitignore` to maintain security.
 
 ---
 
-## Running the Application
+### Execution Modes
 
-### Option A: Run the End-to-End Pipeline (CLI)
-Executes data loading, data cleaning, statistical evaluation, and automated insight generation directly in the terminal:
+#### Mode 1: Run the End-to-End CLI Pipeline
+Executes data ingestion, sanitization, statistical summarization, and automated insight generation directly in your terminal:
 ```powershell
 python main.py
 ```
 
-### Option B: Launch the Interactive Dashboard
-Starts the Streamlit web server:
+#### Mode 2: Launch the Interactive Web Dashboard
+Starts the local Streamlit application server:
 ```powershell
 streamlit run app.py
 ```
-Once started, access the dashboard in your browser at:
+Open your browser and navigate to:
 `http://localhost:8501`
 
-### Option C: Regenerate the Synthetic Dataset
-To regenerate the benchmark dataset under a controlled seed:
+#### Mode 3: Execute the Automated Test Suite
+Runs the comprehensive 90-test automated verification suite:
+```powershell
+pytest -v
+```
+
+#### Mode 4: Regenerate the Benchmark Synthetic Dataset
+Regenerates the raw survey dataset under controlled random seed 42:
 ```powershell
 python generate_data.py
 ```
 
 ---
 
-## Testing and Quality Assurance
+## 7. Results and Key Findings
 
-The codebase includes an automated test suite verifying every component from raw data ingestion to dashboard filtering logic.
+### Baseline Survey Results (N=500 Respondents)
 
-### Run All Tests
-```powershell
-pytest -v
-```
+The full pipeline was executed against the benchmark survey dataset. The key findings are summarized below:
 
-### Test Suite Breakdown (90 Tests Total)
-- `tests/test_data_loader.py` (10 tests): Verifies schema validation, missing file handling, and column consistency.
-- `tests/test_data_cleaning.py` (11 tests): Verifies whitespace stripping, duplicate detection, range enforcement, and null preservation.
-- `tests/test_analysis.py` (13 tests): Verifies descriptive calculations, frequency calculations, and cross-tabulation math.
-- `tests/test_visualizations.py` (12 tests): Verifies Plotly figure structures, data integrity, and percentage conversions.
-- `tests/test_insights.py` (13 tests): Verifies dynamic narrative generation, tie handling, and non-hardcoded logic.
-- `tests/test_dashboard_logic.py` (31 tests): Verifies single and multi-department filtering, study-year slicing, KPI denominators, search filtering, and CSV export functionality.
+| Metric / Survey Dimension | Value / Finding | Context and Population Share |
+| :--- | :--- | :--- |
+| Total Survey Sample Size | 500 records | 100% valid records after cleaning |
+| Most Preferred Language | Python | 206 responses (41.2% share) |
+| Second Preferred Language | Java | 129 responses (25.8% share) |
+| Top Learning Method | Hands-on Projects | 232 responses (46.4% share) |
+| Mean Training Satisfaction | 3.55 / 5.00 | Median: 4.00, Std Dev: 1.06 |
+| Positive Satisfaction Rate | 55.2% | Rated satisfaction at 4 or 5 |
+| Overall Internship Interest | 74.4% | 372 of 500 respondents answered "Yes" |
+| Highest Internship Interest Dept | IT Department | 78.0% interest rate (138 of 177 respondents) |
+| Mean Recommendation Score | 6.47 / 10.00 | Median: 7.00, Std Dev: 2.43 |
+| Top-Tier Recommendation Rate | 19.0% | Rated recommendation score at 9 or 10 |
+| Written Comments Engagement | 53.0% | 265 provided feedback, 235 left blank |
+
+### Automated Testing and Quality Assurance Results
+
+The test suite validates data ingestion, cleaning logic, mathematical consistency, visualization structure, insight dynamism, and dashboard filter mechanics:
+
+| Test Module | Tests | Execution Status | Coverage Focus |
+| :--- | :--- | :--- | :--- |
+| `tests/test_data_loader.py` | 10 | PASSED | Missing files, zero-byte checks, schema validation |
+| `tests/test_data_cleaning.py` | 11 | PASSED | Whitespace stripping, range checks, null preservation |
+| `tests/test_analysis.py` | 13 | PASSED | Descriptive stats, cross-tabulations, shape integrity |
+| `tests/test_visualizations.py` | 12 | PASSED | Plotly figure generation, data types, percentage views |
+| `tests/test_insights.py` | 13 | PASSED | Dynamic narrative calculations, tie-break handling |
+| `tests/test_dashboard_logic.py` | 31 | PASSED | Cascading filters, KPI denominators, search, CSV export |
+| **Total Test Suite** | **90** | **100% PASS** | **Zero test failures, zero regressions** |
 
 ---
 
-## Project Directory Structure
+## 8. Dashboard Screenshots and Visual Previews
+
+The platform features four functional tabs with persistent sidebar controls. Visual screenshot previews are linked below directly from the `images/` directory:
+
+### Tab 1: Executive Overview
+Displays high-level KPI cards, summary numeric statistics, missing data audit tables, and cohort distribution donut charts.
+
+![Dashboard Overview](images/dashboard_overview.png)
+*Figure 1: Executive KPI metric cards, numeric distribution summary, and department breakdown.*
+
+### Tab 2: Interactive Visualizations
+Interactive Plotly charts supporting real-time toggling between grouped and stacked layouts, as well as raw counts and normalized percentages.
+
+![Interactive Visualizations](images/visualizations_tab.png)
+*Figure 2: Interactive Plotly chart gallery with dynamic visual configuration controls.*
+
+### Tab 3: Automated Executive Insights
+Dynamically rendered narrative cards with color-coded thematic accents and expandable breakdown tables.
+
+![Automated Insights](images/automated_insights.png)
+*Figure 3: Automated narrative insights generated directly from cohort-filtered responses.*
+
+### Tab 4: Raw Data Explorer
+Searchable data grid with free-text search across all columns, dynamic column selection, filtered record count, and instant CSV export.
+
+![Raw Data Explorer](images/data_explorer.png)
+*Figure 4: Self-service data table with column selector, search filter, and CSV download.*
+
+*Note on Image Assets: Screenshot files are maintained in the `images/` folder. When running the project locally, explore all features interactively via `streamlit run app.py`.*
+
+---
+
+## 9. Security, Privacy, and Repository Structure
+
+### Data Privacy and Security Statement
+- Zero Real-World PII: All survey records, respondent identifiers, and responses are 100% synthetic.
+- Zero Hardcoded Secrets: Audited and verified. No private API keys, credentials, or tokens are present in the repository.
+- Environment Protection: Standardized `.gitignore` rules prevent `.env`, `.env.*`, `.venv/`, `.streamlit/`, and log files from entering version control.
+
+### Project Directory Layout
 
 ```
-Poll-Results-Visualizer/
+poll-results-visualizer/
 ├── .env.example                            # Configuration template for environment variables
 ├── .gitignore                              # Git exclusion rules for environments, caches, and logs
 ├── README.md                               # Project documentation and architectural guide
@@ -329,15 +342,6 @@ Poll-Results-Visualizer/
 
 ---
 
-## Security, Privacy, and Compliance
-
-- Zero Hardcoded Secrets: Scanned and audited. No API keys, passwords, database credentials, or tokens exist in source code.
-- Credential Protection: Standardized `.env` exclusions configured in `.gitignore`.
-- Data Anonymization: The project uses exclusively synthetic data; no actual student, employee, or customer data is stored or processed.
-- Deterministic Execution: Controlled random seeds ensure reproducible testing across different environments.
-
----
-
-## License
+## 10. License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software for educational and commercial purposes.
